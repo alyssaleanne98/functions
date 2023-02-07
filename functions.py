@@ -3,15 +3,14 @@
 #Write a function named sum_tothat accepts a single integer, n, and returns the sum of the integers from 1 to n.
 
 def sum_tothat(n): #function named sum_tothat accepts n
-    return 
+    return sum(range(1, n+1))
 
-    # look into range
+print(sum_tothat(6))
 
 #Write a function named largest that takes a list of numbers as an argument and returns the largest number in that list.
 
-#lambda function
-def largest(nums):
-    return max(nums)
+def largest(nums): #function named largest 
+    return max(nums) #returning max() function returns the item with the highest value
 print (largest([10, 4, 2, 231, 91, 54]) ) # returns 231
 
 #for loop and if statement
