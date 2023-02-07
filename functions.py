@@ -13,8 +13,19 @@ def largest(nums): #function named largest
     return max(nums) #returning max() function returns the item with the highest value
 print (largest([10, 4, 2, 231, 91, 54]) ) # returns 231
 
-#for loop and if statement
+
 
 #Write a function named occurancesthat takes two string arguments as input and counts the number of occurances of the second string inside the first string.
 
-# look into a method 
+# 
+
+#Write a function named product that takes an arbitrary number of numbers, multiplies them all together, and returns the product.
+#(HINT: Review your notes on *args).
+
+def product (*a): # * is used to pass a variable number of arguments to a function
+    result = 1
+    for num in a:
+        result *= num # *= is Multiple AND
+    return result
+
+print(product(-1, 4))
